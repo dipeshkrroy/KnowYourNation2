@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dipesh.knowyournation.Main2Activity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/img"
+        android:src="@drawable/flag"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#0e2f44"
+        android:layout_margin="3dp"></View>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country: "
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtcountry1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Country"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtcountry"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital: "
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txtcapital1"/>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capital"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtcapital"/>
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal">
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Population:"
+           android:textSize="20sp"
+           android:layout_margin="10dp"
+           android:id="@+id/txtpopu1"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Population"
+           android:textSize="20sp"
+           android:layout_margin="10dp"
+           android:id="@+id/txtpopu"/>
+
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area: "
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txtarea1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="area"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txtarea"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Region: "
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txtregion"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="area"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txtregion1"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subregion: "
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txtsubregion"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="area"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:id="@+id/txtsubregion1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
